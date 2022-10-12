@@ -28,9 +28,9 @@ Côté Front :
 	Pour le MVC (Modèle, Vue, Contrôleur) le Contrôleur va récupérer tous les événements du navigateur. Ainsi, en JavaScript, 
 	on peut récupérer les clics, les entrées dans un  « input », les scrolls…
 
-	La classe Modèle sert à modéliser les données, c'est-à-dire effectuer un traitement sur les données avant de les enregistrer 
-	ou lorsqu'elles remontent de la base de données. On fera les échanges entre le côté client et le côté serveur via des 
-	requêtes XMLHttpRequest également appelé Ajax en jQuery.
+	La classe Modèle sert à modéliser les données, c'est-à-dire effectuer un traitement sur les données avant de les 
+	enregistrer ou lorsqu'elles remontent de la base de données. On fera les échanges entre le côté client et le côté serveur 
+	via des requêtes XMLHttpRequest également appelé Ajax en jQuery.
 
 	La classe Vue, va s'occuper de l'ensemble des affichages et des traitements liés à ceux-ci.
 
