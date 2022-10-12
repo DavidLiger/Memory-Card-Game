@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Card</title>
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script type="module" src="/js/index.js"></script>
+  </head>
+  <body>
+    <div class="game-title">Memory Card</div>
+    <div class="score-display-container">
+      <div class="score-display">
+        <div class="hall-of-fame">
+          <span id="hofTitle">Meilleurs Scores</span>
+          <ul id="betterScores">
+            <p style="font-size:0.7em">Pas encore de record !</p>
+            <p style="font-size:0.7em">A toi de jouer !</p>
+          </ul>
+        </div>
+        <button type="button" id="start">
+          Nouvelle Partie
+        </button>
+      </div>
+      <div class="opac-screen"></div>
+    </div>
+    <div class="game-board-container">
+      <div class="game-board">
+        <div class="row">
+          <img id="card0" class="mem-card"/>
+          <img id="card1" class="mem-card"/>
+          <img id="card2" class="mem-card"/>
+          <img id="card3" class="mem-card"/>
+          <img id="card4" class="mem-card"/>
+        </div>
+        <div class="row">
+          <img id="card5" class="mem-card"/>
+          <img id="card6" class="mem-card"/>
+          <img id="card7" class="mem-card"/>
+          <img id="card8" class="mem-card"/>
+          <img id="card9" class="mem-card"/>
+        </div>
+        <div class="row">
+          <img id="card10" class="mem-card"/>
+          <img id="card11" class="mem-card"/>
+          <img id="card12" class="mem-card"/>
+          <img id="card13" class="mem-card"/>
+          <img id="card14" class="mem-card"/>
+        </div>
+        <div class="row">
+          <img id="card15" class="mem-card"/>
+          <img id="card16" class="mem-card"/>
+          <img id="card17" class="mem-card"/>
+          <img id="card18" class="mem-card"/>
+          <img id="card19" class="mem-card"/>
+        </div>
+      </div>
+      <div class="remaining-time-container">
+        <div class="remaining-time-bar"></div>
+      </div>
+    </div>
+  </body>
+</html>
