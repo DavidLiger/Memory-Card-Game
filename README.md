@@ -49,3 +49,5 @@ Côté Back:
 
 	Les informations de connexion à la base de données sont enregistrées dans des variables globales afin d'être accessible 
 	partout dans le PHP.
+	
+Support de cours : https://github.com/DavidLiger/Memory-Card-Game/blob/main/assets/support-de-cours-OClock.pdf
