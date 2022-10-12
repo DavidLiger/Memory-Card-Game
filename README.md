@@ -51,3 +51,4 @@ Côté Back:
 	partout dans le PHP.
 	
 Support de cours : https://github.com/DavidLiger/Memory-Card-Game/blob/main/assets/support-de-cours-OClock.pdf
+Vidéo Demo : https://youtu.be/9brdVF5hv5k
